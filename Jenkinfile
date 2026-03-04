@@ -7,7 +7,7 @@ jdk 'java'
 stages {
 stage('Checkout') {
 steps {
-git branch: 'main', url: 'https://github.com/cseniki/gradle-app.git'
+git branch: 'main', url: 'https://github.com/kharvipraveen882-bit/MySeleniumApp.git'
 }
 }
 stage('Build') {
